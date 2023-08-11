@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .countedown {
+    width: 280px;
+    padding: 10px;
+    background-color: orangered;
+    border: 2px solid #008af7;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  
+  h2 {
+    background-color: greenyellow;
+    color:forestgreen;
+    margin: 0;
+    padding: 7px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .counter div {
+    background-color: blue;
+    width: 22%;
+    padding: 10px;
+    
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  h3 {
+    margin: 0;
+    text-transform: capitalize;
+  }
